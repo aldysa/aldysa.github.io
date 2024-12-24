@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aldysa Abittama | Profile</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <!-- <div class="logo">Aldysa Abittama Aulya Yusuf</div> -->
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <!-- <div class="logo">Aldysa Abittama Aulya Yusuf</div> -->
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <!-- <div class="section__pic-container">
+        <img src="./assets/profile-pic.jpg" alt="Aldysa Abittama profile picture" />
+      </div> -->
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Aldysa!</h1>
+        <p class="section__text__p2">Software Engineer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume-example.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/in/aldysa/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/aldysa/'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/profile-pic.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>1+ years <br />Software Engineer</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Computer Science Undergraduate<br />Pakuan University</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I am a computer science student with a keen interest in cloud computing
+              and data. I have a knack for tackling complex problems and thrive in 
+              challenging environments. With a strong capacity for learning and a clear
+              sense of ambition, I actively seek out new challenges and opportunities
+              for professional development.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Tools and Languages</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/tools languagaes/Figma.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Figma</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/tools languagaes/python.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/tools languagaes/JavaScript.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <!-- <p>Basic</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/tools languagaes/flask.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Flask</h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/tools languagaes/Node.js.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/tools languagaes/hapi.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Hapi</h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/tools languagaes/React.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React JS</h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/tools languagaes/MariaDB.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MariaDB</h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/tools languagaes/logo-mysql.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MySQL</h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/tools languagaes/docker-mark-blue.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Docker</h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/tools languagaes/Postman_(software).png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Postman</h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/tools languagaes/Google_Cloud.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>GCP</h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Experiences</h2>
+            <div >
+              <article>
+                <img
+                  src="./assets/experiences/pelni.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PT PELNI (Persero)</h3>
+                  <p>IT Operation</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/experiences/unpak.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Universitas Pakuan</h3>
+                  <p>Practicum Assistant</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/experiences/bangkit.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Bangkit Academy</h3>
+                  <p>Cloud Computing Cohort</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/experiences/AIESEC-Human-Blue.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>AIESEC in UNJ</h3>
+                  <p>AIESEC Future Leaders Delegate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/experiences/bermerek.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>BERMEREK</h3>
+                  <p>Web Developer</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/experiences/kriasee.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Kria.see</h3>
+                  <p>Small Business Owner</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Portal Enterprise IT Division PELNI</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Rjndrkha/General-Ledger-PELNI'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">#AKUJUGA</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/AkuJuga-Bangkit2024'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Deploy Profile Using GCP</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/AkuJuga-Bangkit2024'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Deploy Money Tracker App</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/AkuJuga-Bangkit2024'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Implementing Machine Learning with Google Cloud for Skin Cancer Detection App</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/AkuJuga-Bangkit2024'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Shopping Trends EDA dan K-Means Clustering</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://colab.research.google.com/drive/1Zjk3s8eyk_vAI55Soa-0F_5MocO25X10#scrollTo=a64930f9'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+         
+          
+          
+          
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:aldysayusuf@gmail.com">aldysayusuf@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/aldysa/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <!-- <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div> -->
+      </nav>
+      <p>Copyright &#169; 2024 Aldysa. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
